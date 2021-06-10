@@ -254,13 +254,37 @@
     margin-bottom: 15px;
 }
 
-/* plugin tap2 */
+/* plugin tap */
 .mr-tp2{
     margin-left: 1em;
     margin-right: 1em;
 }
-
+.elem-right{
+    float: right;
+}
+/* not work !!! */
 .mr-tp2 select option {
     text-indent: 195px;
   }
+
+  /* input file  */
+  #custom-button {
+    padding: 10px;
+    color: white;
+    background-color: #EB5E28;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#custom-button:hover {
+    background-color: #d15220;
+
+}
+ 
+
+#custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
  

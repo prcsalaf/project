@@ -4,7 +4,7 @@ thumbBorderWidth = 4px,
 trackColor = #ccc,
 activeTrackColor = #777,
 trackHeight = 4px,
-thumbColor = red,
+thumbColor = #EB5E28,
 activeThumbColor = darkOrange
 */
 
@@ -33,7 +33,7 @@ background: #777; /*activeTrackColor*/
 
 input[type="range"]::-webkit-slider-thumb {
 -webkit-appearance: none;
-background: red; /*thumbColor*/
+background: #EB5E28; /*thumbColor*/
 width: 28px; /* thumbHeight + (2 x thumbBorderWidth)*/
 height: 28px; /* thumbHeight + (2 x thumbBorderWidth)*/
 border-radius: 50%;
@@ -66,7 +66,7 @@ background: #777; /*activeTrackColor*/
 }
 
 input[type="range"]::-moz-range-thumb {
-background: red; /*thumbColor*/
+background: #EB5E28; /*thumbColor*/
 width: 20px; /*thumbHeight*/
 height: 20px; /*thumbHeight*/
 border-radius: 50%;
@@ -80,7 +80,7 @@ background: darkOrange; /*activeThumbColor*/
 }
 
 input[type="range"]::-moz-range-progress {
-background: red; /*thumbColor*/
+background: #EB5E28; /*thumbColor*/
 border-radius: 4px; /*trackHeight*/
 height: 4px; /*trackHeight*/
 }
@@ -105,7 +105,7 @@ background: #777; /*activeTrackColor*/
 }
 
 input[type="range"]::-ms-thumb {
-background: red; /*thumbColor*/
+background: #EB5E28; /*thumbColor*/
 width: 20px; /*thumbHeight*/
 height: 20px; /*thumbHeight*/
 border-radius: 50%;
@@ -125,7 +125,7 @@ display: none; /*tooltip makes thumb sliding lagy*/
 }
 
 input[type="range"]::-ms-fill-lower {
-background: red; /*thumbColor*/
+background: #EB5E28; /*thumbColor*/
 border-radius: 4px; /*trackHeight*/
 }
 
